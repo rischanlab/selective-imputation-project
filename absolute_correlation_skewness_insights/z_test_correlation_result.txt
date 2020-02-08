@@ -1,0 +1,95 @@
+Correlation
+
+ideal
+   id  combined_col   abs_corr  real_score
+0   1    agethalach  0.525801    0.758570
+1   2  oldpeakslope  0.476775    0.433980
+2   3   agetrestbps  0.274698    0.198153
+3   4       agechol  0.257154    0.159779
+4   5       sexchol  0.239287    0.133549
+5   6       sexthal  0.229687    0.118036
+6   7         cpfbs  0.227776    0.109537
+7   8  thalachslope  0.223528    0.101732
+8   9     cpoldpeak  0.207949    0.090311
+9  10   cholrestecg  0.206730    0.086213
+
+missing
+   id     combined_col     score  real_score
+0   1     oldpeakslope  0.476775    0.687842
+1   2       agethalach  0.525801    0.478604
+2   3       sexthalach  0.204315    0.147382
+3   4     restecgslope  0.138237    0.085891
+4   5        cpoldpeak  0.207949    0.116059
+5   6    trestbpsslope  0.008066    0.004145
+6   7        cpthalach  0.064143    0.030846
+7   8      sextrestbps  0.030943    0.014083
+8   9     thalachslope  0.223528    0.097077
+9  10  trestbpsrestecg  0.102860    0.042896
+cd score:  0.7785093008875761
+
+
+
+Skewness
+
+ideal
+   id       atr    abs_skew  real_score
+0   1        ca  2.796355    4.034287
+1   2     exang  2.101431    1.912805
+2   3       fbs  2.101431    1.515862
+3   4      chol  1.745595    1.084599
+4   5   oldpeak  1.646658    0.919017
+5   6     slope  1.166896    0.599666
+6   7   thalach  0.707711    0.340337
+7   8  trestbps  0.424543    0.193218
+8   9       sex  0.258993    0.112479
+9  10   restecg  0.241816    0.100845
+
+missing
+   id       atr    abs_skew  real_score
+0   1        ca  2.796355    4.034287
+1   2       fbs  2.101431    1.912805
+2   3      chol  1.745595    1.259180
+3   4     exang  2.101431    1.305693
+4   5   oldpeak  1.646658    0.919017
+5   6     slope  1.166896    0.599666
+6   7   thalach  0.707711    0.340337
+7   8  trestbps  0.424543    0.193218
+8   9      thal  0.047011    0.020417
+9  10        cp  0.131417    0.054805
+
+
+cd score:  0.9099441655500787
+
+
+
+
+Outstanding/Deviation Aggregate
+
+Ideal
+   id      combined_col   Utility     score
+0   1           cpcasum  1.087780  1.569335
+1   2      cpoldpeaksum  1.063054  0.967633
+2   3    thaloldpeaksum  1.035367  0.746859
+3   4     thalrestbpsum  1.030491  0.640280
+4   5    thalthalachsum  1.028852  0.574213
+5   6      thalagecount  1.027193  0.527873
+6   7   thalrestbpcount  1.027193  0.493976
+7   8     thalcholcount  1.027193  0.467496
+8   9  thalthalachcount  1.027193  0.446104
+9  10       thalcacount  1.027193  0.428373
+
+
+Missing
+   id      combined_col   Utility     score
+0   1        slopecasum  1.024031  1.477364
+1   2      cpoldpeaksum  1.063054  0.967633
+2   3     cprestbpcount  1.011579  0.729700
+3   4       cprestbpsum  1.011138  0.628255
+4   5        slopecamax  0.617213  0.344473
+5   6           cpcaavg  0.598956  0.307803
+6   7    thaloldpeaksum  1.035367  0.497906
+7   8       thalcacount  1.027193  0.467496
+8   9  thalthalachcount  1.027193  0.446104
+9  10      exangcholsum  0.905041  0.377431
+
+cd score:  0.9099441655500787

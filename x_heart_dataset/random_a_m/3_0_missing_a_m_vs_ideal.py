@@ -25,7 +25,7 @@ if __name__ == "__main__":
                         #print("Missing topk: ", missing)
                         #print("RBO Standard to Ideal = {}".format(ag.rboresult(missing, topk)))
                         #print("Jaccard Standard to Ideal = {}".format(ag.jaccard_similarity(missing, topk)))
-                        with open('results/missing_a_m_vs_ideal.csv', 'a', newline='') as f:
+                        with open('results/div_missing_a_m_vs_ideal.csv', 'a', newline='') as f:
                             fields = [percent, k, ag.rboresult(missing, topk), ag.jaccard_similarity(missing, topk)]
                             writer = csv.writer(f)
                             writer.writerow(fields)

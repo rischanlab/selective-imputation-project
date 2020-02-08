@@ -45,3 +45,32 @@ Klo mau lihat plot yg compare smua insight itu di x_heart_insight
 
 Tapi kalau mau lihat cumulative distance dari smua itu buka folder cumulative distance
 
+
+
+10 Beda a heart dan heart random. 
+heart random missing sampai 90 untuk a m 
+kalau a heart hanya sampai 40 dan itu missing dimulai dari 5, bahkan klo yg drop rows hanya sampai 20 %. Intinya yang a heart itu untuk how to deal with missing 
+
+
+11. Folder absolute correlation and skewness insight: correlation and skewness sudah pakai nilai abs 
+
+12. small missing: mencoba dg missing percentage small 1 - 10 % missing 
+
+
+
+
+
+
+
+
+
+Buat Code yang Lebih bagus lagi 
+1. No missing on predicate column 
+2. Same Column: A and M 
+3. No Count aggregate insight, try min 
+4. Missing settings: only A+M 0 - 90, A, M 0,5,10,15,20,25,30 
+5. Create functions: Jaccard, RBO, c_d jadi satu semua, tinggal sekali calling
+6. Correlation emang nilainya gitu, drop dia klo di c_d karena nilainya beda, mungkin krn effect missing 
+7. Confirmation: AGF: SUM apakah hanya berefek pd k kecil? 
+8. Plot How to handle missing values technique, dg 3 distance tadi
+
